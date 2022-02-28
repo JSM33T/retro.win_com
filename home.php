@@ -1,8 +1,5 @@
 
-<?php
-
- include('header.php');
-?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/header.php"; ?>
 
 <div class="main-content" id="<?php echo empty($_GET['page'])?'pageContent':''; ?>">
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
@@ -85,9 +82,19 @@
 
 </div>
 
+<footer class="taskbar">
+      <div class="row" style="margin-right: 0px;">
+          <div class="col-8">
+          <button class="btn start-button" onclick="crt()"><img src="../assets/icons/fs.png" class="icon-16"> CRT Mode</button>
+              <button class="btn start-button" onclick="openFullscreen();"><img src="../assets/icons/fs.png" class="icon-16">Open Fullscreen</button>
+            <button class="btn start-button" onclick="closeFullscreen();"><img src="../assets/icons/no_fs.png" class="icon-16">Close Fullscreen</button>
+           
+          </div>
+          <div class="col-4 time">Side</div>
+      </div>
+ 
+  </footer>
 
-<?php
 
-include('footer.php');
-?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/footer.php"; ?>
 
