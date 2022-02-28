@@ -1,0 +1,10 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+/admin/*
+/ignore/*
+/music/*
+.VSCodeCounter/*
+/retro/assets/win_icons/*

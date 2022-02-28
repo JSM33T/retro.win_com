@@ -71,13 +71,11 @@
                     <img src="assets/icons/video_-0.png" class="icon-16">text random
                 </a>
                 
-				
-				
+
 
             </div>
         </div>
     </div>
-     <!-- OTHER-->
 
      <footer class="taskbar">
       <div class="row" style="margin-right: 0px;">
