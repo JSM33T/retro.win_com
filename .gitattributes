@@ -1,0 +1,4 @@
+* text=auto
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.cshtml linguist-detectable=false
